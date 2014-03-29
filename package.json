@@ -1,6 +1,6 @@
 {
   "name": "curse-words",
-  "version": "0.0.2",
+  "version": "0.0.3x",
   "description": "Get Random Curse Words",
   "main": "index.js",
   "repository": {
@@ -8,5 +8,8 @@
     "url": "git@github.com:reimertz/curse-words.git"
   },
   "author": "Pierre Reimertz",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.6.0"
+  }
 }
