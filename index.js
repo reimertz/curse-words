@@ -257,7 +257,7 @@ function curse(nrOfWords) {
   }
 
   if (typeof(options) === 'undefined') {
-    return word();
+    return c();
   }
 
   var results = [];
