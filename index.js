@@ -250,9 +250,9 @@ var curseList = [
 ];
 
 
-function curseWords(nrOfWords) {
+function curse(nrOfWords) {
 
-  function curse() {
+  function c() {
     return curseList[_.random(curseList.length)];
   }
 
@@ -263,10 +263,10 @@ function curseWords(nrOfWords) {
   var results = [];
 
   for (var i = 0; (i < nrOfWords); i++) {
-    results.push(word());
+    results.push(c());
   }
   return results;
 }
 
-module.exports = curseWords;
-curseWords.curseList = curseList;
+module.exports = curse;
+curse.curseList = curseList;
