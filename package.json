@@ -1,6 +1,6 @@
 {
   "name": "curse-words",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Get Random Curse Words",
   "main": "index.js",
   "repository": {
