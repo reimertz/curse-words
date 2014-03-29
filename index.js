@@ -269,4 +269,4 @@ function curseWords(nrOfWords) {
 }
 
 module.exports = curseWords;
-curseWords§.curseList = curseList;§
+curseWords.curseList = curseList;§
