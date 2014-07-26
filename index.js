@@ -255,7 +255,7 @@ function curses(nrOfWords) {
     return curseList[_.random(curseList.length)];
   }
 
-  if (typeof(options) === 'undefined') {
+  if (typeof(nrOfWords) === 'undefined') {
     return curse();
   }
 
